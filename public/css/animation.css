@@ -148,6 +148,8 @@ html[dir="LTR"] .network-animation > .item > .dot::after{
     width: 20%;
     border-radius: 50%;
     background: #fff;
+    display: flex;
+    place-content: center;
 }
 .network-animation > .item.-type2 {
     top: 0;
